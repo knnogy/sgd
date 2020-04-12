@@ -58,7 +58,7 @@ function deploy() {
     'gameSelect'
   ) as HTMLSelectElement;
   let gameVersion = gameSelect.value;
-  console.log(gameVersion);
+  //console.log(gameVersion);
   if (gameVersion.length < 1) alert('no game added');
   else
     window.open(

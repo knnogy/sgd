@@ -47,7 +47,7 @@ function deploy() {
     var service = services[serviceSelect.selectedIndex];
     var gameSelect = document.getElementById('gameSelect');
     var gameVersion = gameSelect.value;
-    console.log(gameVersion);
+    //console.log(gameVersion);
     if (gameVersion.length < 1)
         alert('no game added');
     else
