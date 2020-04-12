@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>GIT game deployer</title>
+</head>
+
+<body onload="start()">
+    <script src="app.js">
+       
+		
+    </script>
+    <h2>Game deployer</h2>
+    <table style="border-bottom:1px solid black">
+        <tr>
+            <td>
+                Select environment:
+            </td>
+            <td>
+                <select id="envSelect"></select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Service (WEB, SGD, SkateboardSGD, PGF):
+            </td>
+            <td>
+                <select id="serviceSelect">
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Game:
+            </td>
+            <td>
+                <input type="text" id="gameSelect" >
+                </input>
+            </td>
+        </tr>
+
+    </table>
+    <br>
+    <button onClick='deploy()'>Deploy game</button>
+    <br>
+    <br>
+
+</body>
+
+</html>
